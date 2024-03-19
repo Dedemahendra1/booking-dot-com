@@ -113,7 +113,7 @@ router.put(
       res.status(201).json(hotel);
     } catch (error) {
       res.status(500).json({ message: "Something went throw" });
-    }
+    }  
   }
 );
 
