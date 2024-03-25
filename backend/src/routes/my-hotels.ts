@@ -84,7 +84,7 @@ router.put(
   verifyToken,
   upload.array("imageFiles"),
   async (req: Request, res: Response) => {
-    try {
+    try { 
       const updatedHotel: HotelType = req.body;
       updatedHotel.lastUpdated = new Date();
 
